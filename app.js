@@ -5709,9 +5709,12 @@ function nav(path) {
             </form>
             <button class="mdui-textfield-close mdui-btn mdui-btn-icon" onclick="$('.mdui-select').removeClass('hidedropdown');"><i class="mdui-icon material-icons">close</i></button>
         </div>
+	<div>
         <button class="mdui-textfield-icon mdui-btn mdui-btn-icon dummyclass2" onclick="window.open('${UI.helpURL}','_blank')">
-          <i class="mdui-icon material-icons">file_upload</i> File Upload
+          <i class="mdui-icon material-icons">file_upload</i>
         </button>`;
+	File Upload
+	</div>
   html += search_bar;
   $("#nav").html(html);
   mdui.mutation();
