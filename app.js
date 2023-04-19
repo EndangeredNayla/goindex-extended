@@ -5710,7 +5710,7 @@ function nav(path) {
             <button class="mdui-textfield-close mdui-btn mdui-btn-icon" onclick="$('.mdui-select').removeClass('hidedropdown');"><i class="mdui-icon material-icons">close</i></button>
         </div>
 	<div>
-        <button class="mdui-textfield-icon mdui-btn mdui-btn-icon dummyclass2" onclick="window.open('${UI.helpURL}','_blank')">
+        <button class="mdui-textfield-icon mdui-btn mdui-btn-icon dummyclass2" title="Submit a Mod" onclick="window.open('${UI.helpURL}','_blank')">
           <i class="mdui-icon material-icons">file_upload</i>
         </button>`;
 	File Upload
